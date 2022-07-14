@@ -15,7 +15,6 @@
     "@bbva-web-components/bbva-core-lit-helpers": "^1.0.4",
     "lit-element": "^2.0.0",
     "@capacitacion-practica/title-page": "https://github.com/AnderBelt/title-page.git",
-    "@capacitacion-practica/header-page": "https://github.com/AnderBelt/header-page.git",
     "@capacitacion-practica/rate-movie": "https://github.com/AnderBelt/rate-movie.git",
     "@capacitacion-practica/description-movie": "https://github.com/AnderBelt/description-movie.git",
     "@capacitacion-practica/nav-tab-movie": "https://github.com/AnderBelt/nav-tab-movie.git"

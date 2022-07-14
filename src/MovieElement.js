@@ -2,7 +2,6 @@ import { LitElement, html, } from 'lit-element';
 import { getComponentSharedStyles } from '@bbva-web-components/bbva-core-lit-helpers';
 import styles from './MovieElement-styles.js';
 import '@capacitacion-practica/description-movie/description-movie.js';
-import '@capacitacion-practica/header-page/header-page.js';
 import '@capacitacion-practica/nav-tab-movie/nav-tab-movie.js';
 import '@capacitacion-practica/rate-movie/rate-movie.js';
 import '@capacitacion-practica/title-page/title-page.js';
@@ -57,9 +56,6 @@ export class MovieElement extends LitElement {
   // Define a template
   render() {
     return html`
-      <div class="header">
-        <header-page></header-page>
-      </div>
       <title-page .title=${this.title}></title-page>
       <div class="container">
         <div class="left">
