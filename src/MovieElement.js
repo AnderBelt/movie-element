@@ -60,11 +60,15 @@ export class MovieElement extends LitElement {
       <div class="container">
         <div class="left">
           <description-movie .dataList=${this.dataList.movie} ></description-movie>
-          <nav-tab-movie .dataList=${this.dataList.navbar} ></nav-tab-movie>
+          
         </div>
         <div class="right">
           <rate-movie .dataList=${this.dataList.rating} ></rate-movie>
         </div>
+       
+      </div>
+      <div class="extra">
+      <nav-tab-movie .dataList=${this.dataList.navbar} ></nav-tab-movie>
       </div>
     `;
   }

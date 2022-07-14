@@ -20,6 +20,11 @@ title-page {
   margin-right: 10%;
 }
 
+nav-tab-movie {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 @media only screen and (min-width: 600px) {
   .container {
     display: flex;
