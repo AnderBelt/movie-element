@@ -1,0 +1,1 @@
+export { MovieElement } from './src/MovieElement.js';
